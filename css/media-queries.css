@@ -29,9 +29,7 @@
     .projects-main-container {
         grid-template-columns: 1fr;
     }
-}
 
-@media (max-width: 400px){
     .home-secondary-text{
     font-size: 5px;
     letter-spacing: 4px;
@@ -48,5 +46,25 @@
     height: 70px;
     font-size: 8px;
     line-height: 50px;
+    }
 }
-}
+
+/* @media (max-width: 400px){
+    .home-secondary-text{
+    font-size: 5px;
+    letter-spacing: 4px;
+    }
+
+    .home-main-text{
+    font-size: 10px;
+    letter-spacing: 4px;
+    }
+
+    .home-main-button{
+    width: 110px;
+    padding: 3px 6px;
+    height: 70px;
+    font-size: 8px;
+    line-height: 50px;
+    }
+} */
