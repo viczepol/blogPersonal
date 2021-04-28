@@ -31,12 +31,12 @@
     }
 
     .home-secondary-text{
-    font-size: 5px;
+    font-size: 25px;
     letter-spacing: 4px;
     }
 
     .home-main-text{
-    font-size: 10px;
+    font-size: 25px;
     letter-spacing: 4px;
     }
 
@@ -44,7 +44,7 @@
     width: 110px;
     padding: 3px 6px;
     height: 70px;
-    font-size: 8px;
+    font-size: 15px;
     line-height: 50px;
     }
 }
