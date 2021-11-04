@@ -60,6 +60,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90px;
+    background-color: whitesmoke;
 }
 
 nav .nav-logo-container{
@@ -75,7 +76,7 @@ nav .profile-link{
     align-items: center;
     /*justify-content: flex-end;*/
     justify-content: space-around;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 nav .profile-link a{
