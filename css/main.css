@@ -73,7 +73,8 @@ nav .nav-logo-container img{
 nav .profile-link{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
+    justify-content: space-around;
     margin-right: 50px;
 }
 
@@ -235,20 +236,23 @@ footer p{
 }
 
 .blogpost-img-container{
-    padding: 0px 50px 40px;
+    padding: 0px 50px 0px;
+    
 }
 
 .blogpost-img-container img{
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .blogpost-main-container{
-    padding: 0px 50px 40px;
+    padding: 0px 50px 0px;
 }
 
 .blogpost-main-container h3{
     border-bottom: 1px solid #cdd2da;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .blogpost-main-container article h1{
@@ -257,7 +261,8 @@ footer p{
 
 .contact-main-container{
     width: 100%;
-    min-height: 250px;
+    /* min-height: 250px; */
+    min-height: 50px;
     background-color: #e6e9ed;
     text-align: center;
     padding-bottom: 50px;
@@ -276,7 +281,8 @@ footer p{
 
 .contact-main-container .contact-left, .contact-right{
     text-align: initial;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    margin-top: 50px;
 }
 
 .contact-main-container img{
@@ -286,7 +292,7 @@ footer p{
 .profile-main-container{
     padding: 30px 30px;
     background-color: #e6e9ed;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .profile-main-container img{
