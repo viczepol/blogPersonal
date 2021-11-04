@@ -280,7 +280,7 @@ footer p{
 }
 
 .contact-main-container .contact-left, .contact-right{
-    text-align: initial;
+    text-align: auto;
     /* margin-top: 100px; */
     margin-top: 50px;
 }
