@@ -21,7 +21,11 @@
         display: block;
     }
 
-    
+    .profile-main-container img{
+    width: 350px;
+    margin-right: 0px; 
+    }
+
     nav {
         grid-template-columns: 1fr;
         height: 120px;
@@ -84,6 +88,11 @@
     padding: 60px 30px;
     }
 
+    .profile-main-container img{
+    margin-right: 0px;
+    width: 350px;
+    }
+
     .blogs-main-new {
     margin-top: 30px;
 }
@@ -107,7 +116,7 @@
     }
 }
 
- @media (max-width: 400px){
+ @media (max-width: 420px){
     .home-secondary-text{
     font-size: 15px;
     letter-spacing: 4px;
@@ -124,5 +133,10 @@
     height: 70px;
     font-size: 10px;
     line-height: 50px;
+    }
+    
+    .profile-main-container img{
+    width: 250px;
+    margin-right: 0px; 
     }
 } 
